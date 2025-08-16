@@ -108,4 +108,4 @@ app.post('/api/contact', contactLimiter, async (req, res) => {
 });
 
 // -------------------- VERCEL EXPORT --------------------
-module.exports = app;
+export default app;
