@@ -1,10 +1,9 @@
-import express from 'express';
-import cors from "cors";
-import fetch from 'node-fetch';
-import dotenv from 'dotenv';
-import nodemailer from "nodemailer";
-import helmet from 'helmet';
-import rateLimit from 'express-rate-limit';
+const express = require('express');
+const cors = require('cors');
+const fetch = require('node-fetch');
+const nodemailer = require('nodemailer');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
 dotenv.config();
 const app = express();
 // const PORT = process.env.PORT || 3000;
