@@ -7,6 +7,11 @@ const rateLimit = require('express-rate-limit');
 
 const app = express();
 
+// -------------------- ENVIRONMENT VARIABLES --------------------
+console.log('FRONTEND_URL:', process.env.FRONTEND_URL);
+console.log('GOOGLE_API_KEY:', process.env.GOOGLE_API_KEY);
+console.log('EMAIL_USER:', process.env.EMAIL_USER);
+
 // -------------------- MIDDLEWARE --------------------
 app.use(helmet());
 
